@@ -1,0 +1,308 @@
+@font-face {
+  font-family: Inter;
+  src:url('assets/fonts/inter/static/Inter_18pt-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html,body{
+    font-family: Inter, sans-serif;
+    overflow-x: hidden;
+  }
+
+ 
+
+  .review-section{
+    display: flex;
+  }
+
+  .header-button{
+    display: flex;
+    align-self: center;
+    margin: 15px 20px 15px 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .header-button a{
+ 
+    text-decoration: none;
+  }
+
+  .header h1 {
+    margin: 10px 20px 20px;
+    font-size: 3rem; /* Adjust font size as needed */
+    font-weight: bold; /* Matches the bold style in the image */
+    /* Adjust font family to match your design */
+    
+    /* Gradient background */
+    background: linear-gradient(
+      to right,
+      #8B4513 0%, /* A brownish color similar to the left side of the gradient */
+      #2F4F4F 100% /* A dark slate gray similar to the right side */
+    );
+    
+    /* Clip the background to the text */
+    -webkit-background-clip: text;
+    background-clip: text;
+    
+    /* Make the text color transparent so the gradient shows */
+    color: transparent;
+    
+    /* Optional: Add some spacing or alignment */
+    display: inline-block; /* Ensures the gradient applies only to the text area */
+  }
+
+  .header-logo{
+    margin: 20px;
+  }
+
+  .header p{
+    margin: 0px 20px 0px 20px;
+    font-size: 1.2em;
+  }
+
+  .review-section-avatar-img {
+    margin: 0px 20px;
+    height: 50px;
+    width: 100px;
+    object-fit: contain;
+  }
+
+  .review-section{
+    display: flex;
+    max-width: 100%;
+  }
+  .stars-and-text{
+    display: flex;
+    flex-direction: column;
+ 
+  }
+
+.hero-image{
+  margin: 40px 20px 20px 20px; /* or adjust as needed */
+  object-fit: contain;
+  width: calc(100% - 40px); /* Fits within viewport minus margins */
+  max-width: 100%; /* Extra safety */
+  height: auto;
+ 
+}
+
+.hero h1{
+  margin: 0px 20px 0px 20px;
+  font-size: 2.5em;
+}
+
+.check-and-text{
+  display: flex;
+  align-items: center;
+  margin: 15px 0px 0px 20px;
+  gap: 10px;
+}
+
+.check-and-text p{
+  font-size: 1em;
+  margin-right:20px;
+}
+.not-average {
+ 
+}
+.not-average h1 {
+font-size: 2.5em;
+margin: 20px;
+}
+
+.not-average img {
+ 
+ }
+
+.not-average h1 span {
+ 
+}
+
+.not-average p {
+  margin: 20px;
+}
+.not-average p span {
+  font-weight: bold;
+}
+
+.hero-image2{
+  margin: 40px 20px 20px 20px; /* or adjust as needed */
+  object-fit: contain;
+  width: calc(100% - 40px); /* Fits within viewport minus margins */
+  max-width: 100%; /* Extra safety */
+  height: auto;
+}
+
+.reading-journey-number{
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  margin-left: 20px;
+ 
+}
+
+.reading-journey-text{
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.membership h1{
+  margin: 20px;
+  font-size: 3em;
+}
+
+.membership-options{
+  display: grid;
+  margin: 20px;
+  gap: 15px;
+}
+.membership-option{
+  grid-template-columns: 1fr;
+  border: 1px solid rgb(199, 193, 193);;
+  border-radius: 10px;
+  
+}
+ .z{
+  grid-template-columns: 1fr;
+  border: 1px solid rgb(199, 193, 193);;
+  border-radius: 10px;
+  background: rgb(229,235,165);
+  background: linear-gradient(150deg, rgba(250,245,242,1) 42%, rgba(218,230,236,1) 80%);
+
+
+
+}
+.membership-option h1{
+  margin: 20px;
+  font-size: 2.2em;
+}
+.membership-option h2{
+  margin: 20px;
+  font-size: 2em;
+  font-family: Inter;
+}
+
+.membership hr{
+  margin: 20px;
+  color: rgb(199, 193, 193);;
+  
+}
+
+.membership-option p{
+  margin: 20px;
+  font-size: 1.2em;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgb(101, 96, 96);
+ }
+
+.membership-option span{
+  font-size: 2em;
+  font-weight: bold;
+  color: black;
+ 
+}
+
+.membership-option button{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+  background-color: rgba(255, 199, 159, 0.25);
+  width: 90%;
+  text-transform: uppercase;
+  margin: 20px auto;
+  cursor: pointer;
+  display: block; 
+}
+
+.faq{
+  margin: 30px 0;
+}
+ .stars-and-text2{
+  margin: 20px;
+ }
+
+ .review-text h4{
+  font-size: 1.6em;
+ }
+
+ .review-user{
+  margin-top: 20px;
+ }
+
+ footer{
+  background-color: #092A33;
+  color: white;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  margin-top: 30px;
+ }
+
+ .footer-button{
+  display: flex;
+  align-self: center;
+  margin: 15px 20px 15px 20px;
+  cursor: pointer;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+.footer-button a{
+
+  text-decoration: none;
+}
+
+#footer-hr{
+  margin: 20px;
+  border: 1px solid white;
+  width: 90%;
+}
+
+.footer-logos{
+  display: flex;
+  gap: 15px;
+  margin: 20px;
+}
+
+footer h1{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
